@@ -1,0 +1,51 @@
+
+body{
+  background-image:url(back.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+h1 {text-align: center;
+      color: aqua;
+      font-size: 80px;
+      font
+       }
+h3 {text-align: center;
+    color: white;
+    text-decoration: inline;
+       }
+
+h4 {text-align: center;
+    color: white;
+}
+
+p {text-align: center;
+  color: white;
+  text-decoration: 
+}
+.form-container
+{
+  width: 300px;
+  height: auto;
+  padding: 25px 35px;
+  background-color: transparent;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 0 #000;
+  margin: auto;
+  margin-top: 100px;
+}
+.buttons button{
+  height: 50px;
+  width: 150px;
+  font-size: 18px;
+  font-weight: 600;
+  background: red;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #cc0000;
+  border-radius: 10px;
+  transition: .4s;
+}
+
+.buttons .btn2{
+  margin-left: 25px;
+}
