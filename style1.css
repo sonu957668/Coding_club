@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+.menu-bar h3{color: orange;
+}
+.menu-bar
+{
+	width: 50%;
+	height: 57px;
+	float: right;
+}
+.menu-bar ul
+{
+	display: inline-flex;
+	float: right;
+}
+.menu-bar ul li
+{
+	border-left: 1px transparent;
+	list-style-type: none;
+	padding: 15px 35px;
+	text-align: center;
+	background-color: transparent;
+	cursor: pointer;
+}
+.menu-bar ul li a
+{
+	font-size: 16px;
+	font-size: 20px;
+	color: transparent;
+	text-decoration: none;
+}
+
+
+.wrapper .center1{
+	position: absolute;
+	left: 50%;
+	top: 60%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.wrapper .center{
+	position: absolute;
+	left: 50%;
+	top: 10%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+
+.icon-bar{
+
+	background: darkorange;
+}
+
+body{
+	background-image:url(screen.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h1 {text-align: center;
+			color: aqua;
+			font-size: 55px;
+			font
+		   }
+h2 {text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: inline;
+		   }
+h4 {color: white;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    background: transparent;
+    margin-top: 20px;
+}
+
+.container ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.container ul li{
+    float:left;
+    list-style: none;
+    width:20%;
+    height:300px;
+    background: white;
+    margin :150px 0px 20px 55px; 
+    border:2px solid blue;
+    box-sizing: border-box;
+}
+.container ul li:hover{
+    opacity: 0.8;
+}
+
+.container ul li .bottom{
+    width: 100%;
+    height:50px;
+    line-height: 50px;
+    background: blue;    
+    text-align: center;
+    color:white;
+    font-size: 20px;
+   
+}
+
+@media screen and (max-width:1250px){
+    .container ul li{
+        width:40%;
+        margin-left: 40px;
+         
+    }
